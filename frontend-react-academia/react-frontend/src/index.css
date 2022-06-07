@@ -42,6 +42,27 @@ div.row:nth-of-type(2) {
   justify-content: space-around;
 }
 
+h3.text-center {
+  color: white;
+}
+
+.details-container {
+  color: white;
+  text-align: center;
+  margin: auto;
+}
+
+.details-container .row:first-of-type {
+  border: 1px solid white;
+  width: 350px;
+}
+
+
+.details-container label {
+  margin: 10px 0;
+  font-weight: 700;
+}
+
 .btn.btn-primary.btn-lg {
   margin-top: 50px;
   background-color: transparent;
