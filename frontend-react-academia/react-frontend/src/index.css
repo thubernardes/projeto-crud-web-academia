@@ -5,9 +5,84 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color:  #26272F !important;
+}
+
+table, tr {
+  border-radius: 25px;
+}
+
+th {
+  color: white;
+}
+
+h2 {
+  margin-top: 100px !important;
+  margin-bottom: 50px !important;
+  color: white;
+}
+
+div {
+  display: flex;
+  flex-direction: column;
+}
+
+div.row:first-of-type {
+  order: 3;
+}
+div.row:nth-of-type(2) {
+  order: 2;
+}
+
+div.row td {
+  display: flex;
+  justify-content: center;
+}
+
+.btn.btn-primary.btn-lg {
+  margin-top: 50px;
+  background-color: transparent;
+  border-color: white;
+}
+
+.btn.btn-primary.btn-lg:hover {
+  background-color: #25A2D9;
+  border-color: transparent;
+}
+
+.card {
+  margin-top: 100px !important;
+  background-color: transparent !important;
+  border: 1px solid white !important;
+}
+
+.card h3 {
+  color: white;
+}
+
+.card label {
+  color: white;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+header .navbar {
+  background-color: #111118 !important;
+  display: flex;
+  justify-content: center;
+}
+
+footer {
+  background-color: #111118 !important
+}
+
+footer .text-muted {
+  vertical-align: middle;
+  color: white !important;
 }
