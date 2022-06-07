@@ -11,6 +11,9 @@ body {
 table, tr {
   border-radius: 25px;
 }
+table td {
+  color: white !important;
+}
 
 th {
   color: white;
@@ -34,9 +37,9 @@ div.row:nth-of-type(2) {
   order: 2;
 }
 
-div.row td {
+.buttons-container {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
 }
 
 .btn.btn-primary.btn-lg {
