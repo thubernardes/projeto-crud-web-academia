@@ -6,7 +6,7 @@ import FooterComponent from './components/FooterComponent';
 import CreateEmployeeComponent from './components/CreateEmployeeComponent';
 import UpdateEmployeeComponent from './components/UpdateEmployeeComponent';
 import ViewEmployeeComponent from './components/ViewEmployeeComponent';
-import HomeComponent from './components/Home';
+import HomeComponent from './components/HomeContent';
 
 function App() {
   return (

@@ -99,7 +99,8 @@ code {
 header .navbar {
   background-color: #111118 !important;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
+  
 }
 
 footer {

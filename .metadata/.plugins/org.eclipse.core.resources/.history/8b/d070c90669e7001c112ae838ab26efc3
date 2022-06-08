@@ -1,0 +1,10 @@
+spring.datasource.url=mysql://b0a668d1e9e1f7:854b23e5@us-cdbr-east-05.cleardb.net/heroku_7472fafd72b3c27?reconnect=true
+spring.datasource.username=b0a668d1e9e1f7
+spring.datasource.password=854b23e5
+
+spring.jpa.properties.hibernate.dialect = org.hibernate.dialect.MySQL5InnoDBDialect
+
+spring.jpa.hibernate.ddl-auto= update
+
+
+

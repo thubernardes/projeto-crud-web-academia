@@ -17,23 +17,24 @@ class HomeComponent extends Component {
                 <div className="container-login">
                     <div className="wrap-login">
                         <form className="login-form"></form>
-                        <span className="login-form-title">Bem Vindo!</span>
+                        <span className="login-form-title">Bem vindo!</span>
                         <span className="login-form-title">
-                            <img src=''></img>
+                        <h1 className="g7-logo">G<strong className="g7-strong">7</strong></h1>
                         </span>
 
                         <div className="wrap-input">
-                            <input className='input' type="email" />
                             <span className="focus-iput" data-placeholder='Email'>Email</span>
+                            <input className='input' type="email" /> 
                         </div>
 
                         <div className="wrap-input">
+                            <span className="focus-iput" data-placeholder='Password'>Senha</span>
                             <input className='input' type="password" />
-                            <span className="focus-iput" data-placeholder='Password'>Password</span>
+                            
                         </div>
 
                         <div className="container-login-form-btn">
-                            <a href='http://localhost:3000/employees'> LOGIN</a>
+                            <a className='login-form-btn' href='http://localhost:3000/employees'> LOGIN</a>
 
                             <div className="text-center">
                                 <span className="txt1">Esqueceu sua senha?</span>

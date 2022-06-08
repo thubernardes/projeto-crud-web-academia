@@ -192,3 +192,26 @@
     line-height: 1.5;
     text-decoration: none;
 }
+
+.wrap-input .focus-iput {
+    color: white;
+}
+
+.container-login-form-btn .login-form-btn {
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.g7-logo {
+    margin-top: 10px;
+}
+
+.g7-strong {
+    color: #21d4fd;
+}
+
+#root {
+    height: 100vh;
+    overflow-y: hidden;
+}
+
