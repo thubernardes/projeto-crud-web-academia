@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 
 class HeaderComponent extends Component {
     constructor(props) {
@@ -14,7 +15,7 @@ class HeaderComponent extends Component {
             <div>
                 <header>
                     <nav className='navbar navbar-expand-md navbar-dark bg-dark'>
-                    <div><a href='http://localhost:3000/' className='navbar-brand'>Employee Management App</a></div>
+                    <div><a href='http://localhost:3000/home' className='navbar-brand'>G7 GYM</a></div>
                     </nav>
                 </header>
             </div>

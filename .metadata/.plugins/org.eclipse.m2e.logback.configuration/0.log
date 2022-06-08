@@ -207,3 +207,4 @@
 2022-06-07 16:16:10,596 [Worker-0: Launching backend-springboot-academia - BackendSpringbootAcademiaApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2022-06-07 16:16:10,596 [Worker-0: Launching backend-springboot-academia - BackendSpringbootAcademiaApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
 2022-06-07 16:16:10,596 [Worker-0: Launching backend-springboot-academia - BackendSpringbootAcademiaApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Workspace-Java\backend-springboot-academia\src\test\resources
+2022-06-07 21:09:01,943 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
